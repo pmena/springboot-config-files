@@ -1,2 +1,6 @@
-server
-  port:8086
+server:
+  port: 8086
+  servlet:
+    encoding:
+      charset:UTF-8
+      enabled:true
